@@ -1335,6 +1335,12 @@ ul.ratings.ratings-one li.star:nth-child(1) i,
 	background-color: #ff344f;
 	border-radius: 28px;
 }
+@media (max-width: 767px) {
+	.header-area-one .header-navigation .site-branding .brand-logo {
+		padding: 10px 5px;
+		margin: 5px;
+	}
+}
 .header-area-one .header-navigation .nav-menu {
 	display: -webkit-box;
 	display: -ms-flexbox;
