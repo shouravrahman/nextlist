@@ -92,7 +92,11 @@ const Header3 = () => {
 							<div className='col-lg-2 col-5'>
 								<div className='site-branding'>
 									<a href='/' className='brand-logo'>
-										<img src='assets/images/logo/logo-1.png' alt='Brand Logo' />
+										<img
+											style={{ borderRadius: "5px" }}
+											src='assets/images/logo/Nextlist.png'
+											alt='Brand Logo'
+										/>
 									</a>
 								</div>
 							</div>
