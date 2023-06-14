@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps }) => {
 	return (
 		<Fragment>
 			<Head>
-				<title>Nextlist - Directory & Listings React NextJs Template</title>
+				<title>Nextlist - Directory & Listings NextJs website</title>
 				<link
 					rel='shortcut icon'
 					href='assets/images/favicon.ico'
