@@ -4,69 +4,69 @@ import { About, Blog, Contact, Home, Listing, Pages } from "../Menu";
 
 const Header3 = () => {
 	return (
-		<header className='header-area header-area-three transparent-header d-none d-xl-block'>
-			<div className='header-top'>
-				<div className='container-fluid'>
-					<div className='row'>
-						<div className='col-md-4'>
-							<div className='top-social'>
-								<ul className='social-link'>
+		<header className="header-area header-area-three transparent-header d-none d-xl-block">
+			<div className="header-top">
+				<div className="container-fluid">
+					<div className="row">
+						<div className="col-md-4">
+							<div className="top-social">
+								<ul className="social-link">
 									<li>
 										<span>Follow us:</span>
 									</li>
 									<li>
-										<a href='#'>
-											<i className='ti-facebook' />
+										<a href="#">
+											<i className="ti-facebook" />
 										</a>
 									</li>
 									<li>
-										<a href='#'>
-											<i className='ti-twitter-alt' />
+										<a href="#">
+											<i className="ti-twitter-alt" />
 										</a>
 									</li>
 									<li>
-										<a href='#'>
-											<i className='ti-pinterest' />
+										<a href="#">
+											<i className="ti-pinterest" />
 										</a>
 									</li>
 									<li>
-										<a href='#'>
-											<i className='ti-dribbble' />
+										<a href="#">
+											<i className="ti-dribbble" />
 										</a>
 									</li>
 									<li>
-										<a href='#'>
-											<i className='ti-instagram' />
+										<a href="#">
+											<i className="ti-instagram" />
 										</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div className='col-md-4'>
-							<div className='top-content text-center'>
+						<div className="col-md-4">
+							<div className="top-content text-center">
 								<p>
 									We Have Special Offers Every{" "}
-									<Link href='/'>
+									<Link href="/">
 										<a>Find your offer</a>
 									</Link>
 								</p>
 							</div>
 						</div>
-						<div className='col-md-4'>
-							<div className='top-right'>
-								<ul className='d-flex'>
+						<div className="col-md-4">
+							<div className="top-right">
+								<ul className="d-flex">
 									<li>
-										<Link href='/'>
+										<Link href="/">
 											<a>
-												<i className='ti-search' />
+												<i className="ti-search" />
 												<span>Search here</span>
 											</a>
 										</Link>
 									</li>
 									<li>
-										<Link href='/'>
+										<Link href="/">
 											<a>
-												<i className='ti-heart' />
+												<i className="ti-heart" />
 												<span>Wishlist</span>
 											</a>
 										</Link>
@@ -85,36 +85,45 @@ const Header3 = () => {
 					</div>
 				</div>
 			</div>
-			<div className='header-navigation'>
-				<div className='container'>
-					<div className='primary-menu'>
-						<div className='row align-items-center'>
-							<div className='col-lg-2 col-5'>
-								<div className='site-branding'>
-									<a href='/' className='brand-logo'>
+			<div className="header-navigation">
+				<div className="container">
+					<div className="primary-menu">
+						<div className="row align-items-center">
+							<div className="col-lg-2 col-5">
+								<div className="site-branding">
+									<a
+										href="/"
+										className="brand-logo"
+									>
 										<img
-											style={{ borderRadius: "5px" }}
-											src='assets/images/logo/Nextlist.png'
-											alt='Brand Logo'
+											style={{
+												borderRadius: "5px",
+												height: "100px",
+												width: "140px",
+											}}
+											src="assets/images/logo/nextlist.svg"
+											alt="Brand Logo"
 										/>
 									</a>
 								</div>
 							</div>
-							<div className='col-lg-7 col-2'>
-								<div className='nav-menu'>
-									<div className='navbar-close'>
-										<i className='ti-close' />
+							<div className="col-lg-7 col-2">
+								<div className="nav-menu">
+									<div className="navbar-close">
+										<i className="ti-close" />
 									</div>
-									<nav className='main-menu'>
+									<nav className="main-menu">
 										<ul>
-											<li className='menu-item '>
-												<Link href='/'>
+											<li className="menu-item ">
+												<Link href="/">
 													<a>Home</a>
 												</Link>
 											</li>
 											<About />
-											<li className='menu-item '>
-												<Link href='/listing-map'>Listings</Link>
+											<li className="menu-item ">
+												<Link href="/listing-map">
+													Listings
+												</Link>
 											</li>
 											{/* <li className='menu-item has-children'>
 												<a href='#'>Pages</a>
@@ -125,36 +134,40 @@ const Header3 = () => {
 													<i className='ti-arrow-down' />
 												</span>
 											</li> */}
-											<li className='menu-item'>
-												<Link href='/blog'>Blog</Link>
+											<li className="menu-item">
+												<Link href="/blog">Blog</Link>
 											</li>
 											<Contact />
-											<li className='nav-btn'>
-												<Link href='/add-listing'>
-													<a className='main-btn icon-btn'>Add Listing</a>
+											<li className="nav-btn">
+												<Link href="/add-listing">
+													<a className="main-btn icon-btn">
+														Add Listing
+													</a>
 												</Link>
 											</li>
 										</ul>
 									</nav>
 								</div>
 							</div>
-							<div className='col-lg-3 col-5'>
-								<div className='header-right-nav'>
-									<ul className='d-flex align-items-center'>
-										<li className='user-btn'>
-											<Link href='/'>
-												<a className='icon'>
-													<i className='flaticon-avatar' />
+							<div className="col-lg-3 col-5">
+								<div className="header-right-nav">
+									<ul className="d-flex align-items-center">
+										<li className="user-btn">
+											<Link href="/">
+												<a className="icon">
+													<i className="flaticon-avatar" />
 												</a>
 											</Link>
 										</li>
-										<li className='hero-nav-btn'>
-											<Link href='/add-listing'>
-												<a className='main-btn icon-btn'>Add Listing</a>
+										<li className="hero-nav-btn">
+											<Link href="/add-listing">
+												<a className="main-btn icon-btn">
+													Add Listing
+												</a>
 											</Link>
 										</li>
-										<li className='nav-toggle-btn'>
-											<div className='navbar-toggler'>
+										<li className="nav-toggle-btn">
+											<div className="navbar-toggler">
 												<span />
 												<span />
 												<span />
